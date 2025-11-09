@@ -1,0 +1,53 @@
+:root {
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  --bg: #08111f;
+  --bg-gradient: radial-gradient(circle at top, rgba(109, 180, 255, 0.18), transparent 55%),
+    radial-gradient(circle at 20% 80%, rgba(134, 239, 172, 0.18), transparent 45%), #04070d;
+  --surface: rgba(10, 18, 31, 0.92);
+  --surface-strong: rgba(14, 23, 38, 0.96);
+  --surface-ghost: rgba(15, 26, 41, 0.75);
+  --surface-border: rgba(255, 255, 255, 0.08);
+  --text-primary: #f4f7ff;
+  --text-muted: rgba(228, 235, 255, 0.76);
+  --accent: #74f0c6;
+  --accent-soft: rgba(116, 240, 198, 0.18);
+  --accent-border: rgba(116, 240, 198, 0.35);
+  --shadow-soft: 0 22px 40px -32px rgba(10, 10, 20, 0.9);
+  --shadow-strong: 0 32px 60px -34px rgba(9, 16, 33, 0.95);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
