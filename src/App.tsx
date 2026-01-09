@@ -1,5 +1,6 @@
 import './App.css'
 
+// Personal portfolio website
 function App() {
   const projects = [
     {
