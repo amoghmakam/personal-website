@@ -29,7 +29,7 @@ function App() {
     },
     {
       title: 'Coming Soon...',
-      summary: 'Another full-stack data science build is in the works—stay tuned for a fresh case study.',
+      summary: 'Another full-stack data science build is in the works.',
       problem: 'Exploring a real-world challenge where responsible AI and storytelling converge.',
       approach:
         'Designing the experiment, assembling the dataset, and testing modeling ideas before publishing the full write-up.',
@@ -135,7 +135,7 @@ function App() {
 
       <header id="home" className="hero">
         <div className="hero-content">
-          <p className="eyebrow">Hi, I’m Amogh 👋</p>
+          <p className="eyebrow">Hi, I'm Amogh 👋</p>
           <h1>
             Data Science major at <span>San José State University</span> focused on responsible AI, predictive
             modeling, and building data-driven tools for social good.
@@ -149,14 +149,6 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="hero-card">
-          <p>Currently exploring:</p>
-          <ul>
-            <li>Fairness-aware modeling for student success predictions</li>
-            <li>Low-latency recommender systems with vector search</li>
-            <li>Storytelling dashboards for civic data transparency</li>
-          </ul>
-        </div>
       </header>
 
       <main>
@@ -164,7 +156,7 @@ function App() {
           <div className="section-heading">
             <h2>Featured Projects</h2>
             <p>
-              Each project blends rigorous analytics with actionable storytelling—here’s how I tackle real-world
+              Each project has a mix of analytics and actionable storytelling. Here’s how I tackle real-world
               problems from end to end.
             </p>
           </div>
@@ -208,7 +200,6 @@ function App() {
         <section id="skills" className="section">
           <div className="section-heading">
             <h2>Skills & Technologies</h2>
-            <p>Tools I rely on to move from exploratory analysis to production-grade experiences.</p>
           </div>
           <div className="skill-grid">
             {skills.map(({ category, items }) => (

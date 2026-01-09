@@ -70,10 +70,8 @@
 .hero {
   width: min(1080px, 100%);
   margin-inline: auto;
-  display: grid;
-  gap: clamp(2rem, 6vw, 3rem);
-  align-items: start;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  justify-content: center;
   padding: clamp(2rem, 8vw, 4rem) clamp(1.5rem, 5vw, 3rem) 0;
 }
 
@@ -81,12 +79,16 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+  max-width: 72ch;
 }
 
 .hero-content h1 {
   font-size: clamp(2.25rem, 5vw, 3.2rem);
   line-height: 1.15;
   margin: 0;
+  text-align: center;
 }
 
 .hero-content h1 span {
@@ -409,10 +411,4 @@
 .contact-card a:hover,
 .contact-card a:focus-visible {
   color: var(--accent);
-}
-
-  .nav-links {
-    width: 100%;
-    justify-content: space-between;
-  }
 }
